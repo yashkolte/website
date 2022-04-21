@@ -8,6 +8,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: url(images/background.png);
+  
 
   background-position: center;
   background-size: cover;
@@ -33,7 +34,7 @@ nav{
 .nav-links ul li a{
   color:black;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
 }
 .nav-links ul li:hover{
   color: #0b0b0d;
@@ -54,7 +55,7 @@ nav{
 }
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(17, 15, 15);
 }
 .hero-btn{
@@ -219,7 +220,7 @@ nav{
    margin: 100px auto;
    text-align: center;
    background-image: url(images/campus4.png);
-   
+   opacity: 0.7;
    background-position: center;
    background-size: cover;
    border-radius: 10px;
@@ -240,12 +241,12 @@ nav{
    .footer{
      width: 100%;
      text-align: center;
-     padding: 30px;
+     padding: 30px 0;
+    
 
 
   
   }
-
 
   .icons{
 
@@ -264,3 +265,50 @@ nav{
   .footer{
     background-color: #84db9a;
   }
+
+  /*----------About Us---------*/
+
+.sub-header{
+
+  height: 50vh;
+  width: 100%;
+  background-image: url(./images/academic.png);
+ background-position: center;
+ background-size: cover;
+ text-align: center;
+ color: #fff;
+}
+.sub-header h1{
+  margin-top: 100px;
+}
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+}
+.about-col{
+  flex-basis: 45%;
+  padding: 30px 2px;
+}
+
+.about-col img{
+  width: 100%;
+}
+.about-col h1{
+ padding-top: 0;
+}
+.about-col p{
+  padding: 15px 0 25px;
+}
+
+.video{
+  text-align: center;
+}
+.videos-col{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 15px 0 25px;
+}
